@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    table{
+      /* border: 2px solid black; */
+      color: white;
+    }
+   th, td{
+    text-align:  center;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+  } 
+    
+  </style>
+</head>
+<body>
+  <table align="center" bgcolor="blue" border="1" width="500px" height="250px" cellspacing="5px" cellpadding="5px">
+    <caption>Students data</caption>
+    <thead>
+      <tr>
+        <th>name</th>
+        <th>age</th>
+        <th>qualification</th>
+        <th>Gap(yrs)</th>
+        <th>Address</th>
+      </tr>
+
+    </thead>
+    <tbody>
+      <tr>
+        <td>Ram</td>
+        <td>20</td>
+        <td>B.com</td>
+        <td>3 yrs</td>
+        <td>Guntur</td>
+      </tr>
+      <tr>
+        <td>Lokesh</td>
+        <td>30</td>
+        <td>M.com</td>
+        <td>2 yrs</td>
+        <td>Hyd</td>
+      </tr>
+      <tr>
+        <td>Kohli</td>
+        <td>32</td>
+        <td>Bsc</td>
+        <td>4 yrs</td>
+        <td>Vijayawada</td>
+      </tr>
+      <tr>
+        <td>Dhoni</td>
+        <td>24</td>
+        <td rowspan="3">B.com</td>
+        <td>5 yrs</td>
+        <td>Kadapa</td>
+      </tr>
+      <tr>
+        <td>Kalyan</td>
+        <td>28</td>
+        <!-- <td>B.com</td> -->
+        <td>4yrs</td>
+        <td rowspan="2">Guntur</td>
+      </tr>
+      <tr>
+        <td>Gill</td>
+        <td>22</td>
+        <!-- <td>B.tech</td> -->
+        <td>3 yrs</td>
+        <!-- <td>Guntur</td> -->
+      </tr>
+
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="5">This is students data summary</td>
+      </tr>
+
+    </tfoot>
+
+  </table>
+</body>
+</html>
